@@ -16,8 +16,8 @@ if %errorlevel% equ 0 (
     echo.
     echo Installation complete!
     echo.
-    echo To run the tool, double-click: scripts\run_transcript_tool.bat
-    echo Or run: python scripts\transcript_tool.py
+    echo To run the GUI:   scripts\Gui\run_transcript_tool.bat
+    echo To run headless:  python scripts\py\transcript_tool_cli.py
 ) else (
     echo.
     echo Installation failed. Please check your Python installation.
